@@ -1,0 +1,13 @@
+! urxvt
+URxvt*font:		xft:inconsolata:size=10:antialias=true
+URxvt*depth: 		32
+URxvt*borderless:	1
+URxvt*scrollBar:	false
+URxvt*loginShell:	true
+URxvt*secondaryScroll:	true
+URxvt*perl-ext-common:  default,matcher
+URxvt*urlLauncher:	firefox
+URxvt*matcher.button: 	1
+
+URxvt*background:	black
+URxvt*foreground:	white
