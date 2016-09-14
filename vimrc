@@ -10,7 +10,8 @@ set autoindent
 
 set ruler
 set showcmd
-set laststatus=2
+set laststatus=3
+set relativenumber 
 
 set incsearch
 set ignorecase
@@ -18,8 +19,4 @@ set hlsearch
 
 filetype plugin indent on
 syntax on
-
-
-
-
 
