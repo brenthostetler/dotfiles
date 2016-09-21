@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [[ "${BLOCK_BUTTON}" -eq 1 ]]; then
+    zenity --calendar
+elif [[ "${BLOCK_BUTTON}" -eq 2 ]]; then
+    firefox --new-window 'calendar.google.com/calendar'
+fi
+
+OUTP=$(date "+%a %H:%M")
+
+echo '<span background="white" foreground="black"> ' $OUTP' </span>'
+echo ""
+
