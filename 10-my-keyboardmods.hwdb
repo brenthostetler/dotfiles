@@ -1,0 +1,15 @@
+# Keyboard mapping of scan codes to key codes, and
+# scan codes to add to the AT keyboard's 'force-release' list.
+#
+# Place in /etc/udev/hwdb.d
+#
+#   udevadm hwdb --update
+#   udevadm trigger /dev/input/eventXX
+#
+# where /dev/input/eventXX is the keyboard in question. If in
+# doubt, simply use /dev/input/event* to reload all input rules.
+#
+
+evdev:input:b0003v046Ap000f*
+ KEYBOARD_KEY_0x70039=leftctrl                  # make caps lock leftctrl
+ KEYBOARD_KEY_0x70068=capslock                  # make F13 caps lock
