@@ -10,6 +10,6 @@
 # doubt, simply use /dev/input/event* to reload all input rules.
 #
 
-evdev:input:b0003v046Ap000f*
+evdev:input:b0003v046Ap000F*
  KEYBOARD_KEY_0x70039=leftctrl                  # make caps lock leftctrl
  KEYBOARD_KEY_0x70068=capslock                  # make F13 caps lock
